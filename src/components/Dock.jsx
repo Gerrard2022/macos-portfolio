@@ -4,10 +4,12 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import { dockApps } from "#constants";
+import useWindowStore from "#store/window";
 
 
 const Dock = () => {
 
+    const { openWindow, closeWindow, windows } = useWindowStore()
     const dockRef = useRef(null);
 
     useGSAP(() => {
@@ -57,7 +59,25 @@ const Dock = () => {
 
     }, [])
 
-    const toggleApp = ({ id, canOpen }) => {}
+    const toggleApp = ({ id, canOpen }) => {
+        if(!canOpen) return () => {};
+
+        const window = windows[id];
+
+        if (!window) {
+            console.error(`Window not found for app: ${id}`);
+            return;
+        }
+
+        if (window.isOpen) {
+            closeWindow(id);
+        } else {
+            openWindow(id);
+        }
+
+        console.log("ALL WINDOWS", windows);
+
+    }
 
   return (
     <section id="dock">
