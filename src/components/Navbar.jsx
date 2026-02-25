@@ -1,17 +1,21 @@
 import dayjs from 'dayjs';
 
 import { navLinks, navIcons } from '#constants'
+import useWindowStore from "#store/window.js";
 
 const Navbar = () => {
+
+    const { openWindow } = useWindowStore();
+
     return <nav>
         <div>
             <img src="/images/logo.svg" alt="apple logo" />
             <p className="font-bold">macos portfolio</p>
 
             <ul>
-                {navLinks.map(({id, name}) => (
-                    <li key={id}>
-                        <a href={`#${name.toLowerCase()}`}>{name}</a>
+                {navLinks.map(({id, name, type}) => (
+                    <li key={id} onClick={() => openWindow(type)}>
+                        <a className='cursor-pointer'>{name}</a>
                     </li>
                 ))}
             </ul>
