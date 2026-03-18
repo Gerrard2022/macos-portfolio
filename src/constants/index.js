@@ -132,28 +132,28 @@ const navLinks = [
       text: "Github",
       icon: "/icons/github.svg",
       bg: "#f4656b",
-      link: "https://github.com/JavaScript-Mastery-Pro",
+      link: "https://github.com/Gerrard2022",
     },
     {
       id: 2,
       text: "Platform",
       icon: "/icons/atom.svg",
       bg: "#4bcb63",
-      link: "https://jsmastery.com/",
+      link: "",
     },
     {
       id: 3,
       text: "Twitter/X",
       icon: "/icons/twitter.svg",
       bg: "#ff866b",
-      link: "https://x.com/jsmasterypro",
+      link: "",
     },
     {
       id: 4,
       text: "LinkedIn",
       icon: "/icons/linkedin.svg",
       bg: "#05b6f6",
-      link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+      link: "",
     },
   ];
   
@@ -225,11 +225,11 @@ const navLinks = [
       // ▶ Project 1
       {
         id: 5,
-        name: "Nike Ecommerce Website Application",
+        name: "Nike",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-10 left-5", // icon position inside Finder
-        windowPosition: "top-[5vh] left-5", // optional: Finder window position
+        windowPosition: "top-[5vh] right-5", // optional: Finder window position
         children: [
           {
             id: 1,
@@ -282,7 +282,7 @@ const navLinks = [
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-52 right-80",
-        windowPosition: "top-[20vh] left-7",
+        windowPosition: "top-[30vh] right-7",
         children: [
           {
             id: 1,
