@@ -1,1 +1,1 @@
-# all credits go to @javascriptmastery and @adrian => https://github.com/JavaScript-Mastery-Pro 
+# all credits go to @javascriptmastery and @adrian => https://github.com/JavaScript-Mastery-Pro & https://github.com/adrianhajdin
