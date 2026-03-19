@@ -38,7 +38,7 @@ const navLinks = [
   const dockApps = [
     {
       id: "finder",
-      name: "Portfolio", // was "Finder"
+      name: "Oasis", // was "Finder"
       icon: "finder.png",
       canOpen: true,
     },

@@ -10,7 +10,7 @@ const Navbar = () => {
     return <nav>
         <div>
             <img src="/images/logo.svg" alt="apple logo" />
-            <p className="font-bold">macos portfolio</p>
+            <p className="font-bold">Oasis</p>
 
             <ul>
                 {navLinks.map(({id, name, type}) => (
