@@ -225,7 +225,7 @@ const navLinks = [
       // ▶ Project 1
       {
         id: 5,
-        name: "Nike",
+        name: "Our Solution",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-10 left-5", // icon position inside Finder
@@ -278,7 +278,7 @@ const navLinks = [
       // ▶ Project 2
       {
         id: 6,
-        name: "AI Resume Analyzer",
+        name: "Problem Statement",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-52 right-80",
@@ -331,7 +331,7 @@ const navLinks = [
       // ▶ Project 3
       {
         id: 7,
-        name: "Food Delivery App",
+        name: "Our Challenges",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-10 left-80",
